@@ -135,6 +135,7 @@ class Calendar extends Component {
     var startEvent = null ;
     draggable(el, {
       start: (event) => {
+        // alert('aaa');
         startEvent = event ;
         this.hideOnSlide();
         dragState = {
@@ -147,12 +148,13 @@ class Calendar extends Component {
       },
       drag: (event) => {
         if(startEvent!==null){
-          if(event.pageY - startEvent.pageY < 6){
-            startEvent = null ;
+          if(Math.abs(event.pageY - startEvent.pageY) < 26){
+            // startEvent = null ;
             return ;
           }
         }
 
+        // alert('bbb') ;
         if (!this.state.dragging) {
           this.setState({
             dragging: true
@@ -165,6 +167,7 @@ class Calendar extends Component {
         translateUtil.translateElement(el, null, translate);
       },
       end: (touches) => {
+        // alert('ccc') ;
         this.removeHideClass();
         if (this.state.dragging) {
           var currentTranslate = translateUtil.getElementTranslate(el).top;

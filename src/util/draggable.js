@@ -1,5 +1,7 @@
 var isDragging = false;
 const supportTouch = 'ontouchstart' in window;
+// alert(navigator.userAgent);
+// const supportTouch = false;
 export default function (element, options) {
 
 	const moveFn = function (event) {

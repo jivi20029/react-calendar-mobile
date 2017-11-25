@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476a3021-6997-4625-8ea7-b54521c4df00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/package.json" afterPath="$PROJECT_DIR$/example/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/src/App.jsx" afterPath="$PROJECT_DIR$/example/src/App.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/yarn.lock" afterPath="$PROJECT_DIR$/example/yarn.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/react-calendar-mobile.js" afterPath="$PROJECT_DIR$/lib/react-calendar-mobile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calendar.jsx" afterPath="$PROJECT_DIR$/src/Calendar.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util/draggable.js" afterPath="$PROJECT_DIR$/src/util/draggable.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,11 +53,21 @@
       <file leaf-file-name="Calendar.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calendar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="149" column="47" lean-forward="false" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+            <state relative-caret-position="448">
+              <caret line="161" column="9" lean-forward="true" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draggable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/draggable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-238">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,6 +82,7 @@
       <list>
         <option value="$PROJECT_DIR$/example/package.json" />
         <option value="$PROJECT_DIR$/example/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/util/draggable.js" />
         <option value="$PROJECT_DIR$/src/Calendar.jsx" />
       </list>
     </option>
@@ -138,6 +146,12 @@
               <item name="react-calendar-mobile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-calendar-mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-calendar-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511613107622</updated>
-      <workItem from="1511613110391" duration="374000" />
+      <workItem from="1511613110391" duration="1900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374000" />
+    <option name="totallyTimeSpent" value="1900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1346" height="829" extended-state="0" />
@@ -191,18 +205,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,10 +256,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/draggable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calendar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="149" column="47" lean-forward="false" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+        <state relative-caret-position="448">
+          <caret line="161" column="9" lean-forward="true" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
