@@ -8,7 +8,6 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "react": "^15.4.2",
-    "react-calendar-mobile": "^0.1.0",
     "react-dom": "^15.4.2"
   },
   "scripts": {

@@ -132,8 +132,10 @@ class Calendar extends Component {
   initScrollEvent() {
     const el = this.wrapper;
     var dragState = {};
+    var startEvent = null ;
     draggable(el, {
       start: (event) => {
+        startEvent = event ;
         this.hideOnSlide();
         dragState = {
           range: this.calcDragRange(),
@@ -144,6 +146,13 @@ class Calendar extends Component {
         };
       },
       drag: (event) => {
+        if(startEvent!==null){
+          if(event.pageY - startEvent.pageY < 6){
+            startEvent = null ;
+            return ;
+          }
+        }
+
         if (!this.state.dragging) {
           this.setState({
             dragging: true

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Calendar from 'react-calendar-mobile';
+import Calendar from './react-calendar-mobile';
 import './App.css';
 
 class App extends Component {

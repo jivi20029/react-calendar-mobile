@@ -4912,14 +4912,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-calendar-mobile@^0.1.0:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/react-calendar-mobile/-/react-calendar-mobile-0.1.5.tgz#e1dc28fcb2496cb91d9a692be32539d217675592"
-  dependencies:
-    classnames "^2.2.5"
-    react "^15.4.2"
-    react-dom "^15.4.2"
-
 react-dev-utils@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-3.0.2.tgz#1a42263e9b6aa11dcb45d69dfe5eb1b354bd5531"
