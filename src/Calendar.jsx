@@ -446,7 +446,7 @@ class Calendar extends Component {
         <div className="react-calendar__header">
           { this.renderHeader() }
         </div>
-        <div ref={ (main) => this.main = main } className="react-calendar__main" style={ { height: `${ITEM_HEIGHT[view] + mainDivHeight}px` } }>
+        <div ref={ (main) => this.main = main } className="react-calendar__main" style={ { height: `${ITEM_HEIGHT[view] + mainDivHeight + 3}px` } }>
           <div className="react-calendar__weekdays">
             { this.renderWeekTitle() }
           </div>

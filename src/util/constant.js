@@ -1,5 +1,5 @@
 export const ITEM_HEIGHT = {
-  month: 219,
+  month: 216,
   week: 36
 }
 
